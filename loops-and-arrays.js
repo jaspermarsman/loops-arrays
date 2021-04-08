@@ -4,20 +4,17 @@
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 namen zou bevatten!
 // ==========================================
 
-const names = ["Henk", "Piet", "Fred", "Joop"];
-for (i = 0; i < names.length; i++){
-    names[i] = names[i] + "je";
-    console.log(names[i]);
-}
-
-
-
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(names) geeft: ["Henk", "Piet", "Fred", "Joop"]
 // Na jouw script zie je de aangepaste waardes:
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
+const names = ["Henk", "Piet", "Fred", "Joop"];
+for (i = 0; i < names.length; i++){
+    names[i] = names[i] + "je";
+    console.log(names[i]);
+}
 
 // ==========================================
 // Opdracht 2
@@ -26,6 +23,11 @@ for (i = 0; i < names.length; i++){
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
+
+for (i = 0; i < numbers.length; i++){
+    numbers[i] = numbers[i] *3;
+}
+console.log(numbers);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
